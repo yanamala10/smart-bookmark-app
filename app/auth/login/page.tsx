@@ -3,8 +3,7 @@
 import { createClient } from "@/lib/supabase/client"
 
 // This line is the "magic fix" for Vercel builds. 
-// It tells Next.js not to run this code during the build process.
-export const dynamic = 'force-dynamic'
+// It tells Next.js not to run this code during the build process
 
 export default function LoginPage() {
   // Initialize the client
