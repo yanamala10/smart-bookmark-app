@@ -1,3 +1,4 @@
+NOTE: While logging in, if you sign in with google check your spam folders as well fot the confirmation link.
 Challenges & Solutions Log
 1. Build Failure: Accessing Dynamic APIs (Severity 8)
 Problem: The Vercel build crashed with an error stating that cookies() or headers() were used outside of a Suspense boundary. Next.js 15 requires these to be "wrapped" to allow for streaming.
